@@ -2,7 +2,9 @@ pipeline{
     
     agent any
     
-    stages('Checkout'){
+    stages{
+        
+        stage('Checkout'){
         
         steps{
             
