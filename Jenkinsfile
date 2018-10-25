@@ -2,14 +2,14 @@ pipeline {
 
           agent any
 
-          stage(*Hello World!*) {
+          stage(*Hello World*) {
 
           steps {
           
                  sh 'echo hello world' 
           }
           
-          stage(*Hello World2!*) {
+          stage(*Hello World2*) {
 
           steps {
           
