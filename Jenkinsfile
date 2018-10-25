@@ -9,6 +9,8 @@ pipeline {
                  sh 'echo hello world' 
           }
           
+    }
+          
           stage(*Hello World2*) {
 
           steps {
