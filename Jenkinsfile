@@ -2,7 +2,7 @@ pipeline {
 
           agent any
 
-          stage(*Hello World*) {
+          stage('Hello World') {
 
           steps {
           
@@ -11,7 +11,7 @@ pipeline {
           
     }
           
-          stage(*Hello World2*) {
+          stage('Hello World2') {
 
           steps {
           
