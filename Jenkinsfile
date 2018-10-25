@@ -4,21 +4,21 @@ pipeline {
           
           stages {
 
-          stage('Hello World') {
+                    stage('Hello World') {
 
-          steps {
-          
-                 sh 'echo hello world' 
-          }
-          
-    }
-          
-          stage('Hello World2') {
+                              steps {
 
-          steps {
-          
-                 sh 'echo hello world' 
-          }
+                                     sh 'echo hello world' 
+                              }
 
+    
+          
+                    stage('Hello World2') {
+
+                              steps {
+
+                                     sh 'echo hello world' 
+                              }
+                    }
     }
 }
